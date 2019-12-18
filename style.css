@@ -1,0 +1,42 @@
+.main-container {
+    display: inline-flexbox;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 10px solid #00eeff;
+    font-size: 0;
+}
+
+.box {
+    display: inline-flex;
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    background-color: burlywood;
+    margin: 2px;
+    transition: left 1s, top 1s;
+}
+
+.box span{
+    display: inline-flex;
+    font-size: 2rem;
+    margin: auto;
+    color: #403C40;
+    cursor: context-menu;
+}
+
+
+#done {
+    display: inline-flexbox;
+    height: 30px;
+    width: 300px;
+    font-size: 2rem;
+    background-color: lawngreen;
+    color: #403C40;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
